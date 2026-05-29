@@ -1,0 +1,19 @@
+# Core runtime (lightweight, runs anywhere incl. Python 3.12-3.14)
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+SQLAlchemy==2.0.36
+greenlet==3.1.1
+aiosqlite==0.20.0
+python-dotenv==1.0.1
+numpy>=1.26
+websockets==14.1
+httpx==0.28.1
+
+# Optional streaming backend (only needed when SIS_STREAM_BACKEND=redis)
+redis==5.2.1
+
+# Test
+pytest==8.3.4
+pytest-asyncio==0.25.0

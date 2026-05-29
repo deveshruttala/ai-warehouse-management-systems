@@ -1,0 +1,9 @@
+# Optional computer-vision dependencies for the REAL detection pipeline.
+# Install only if you want to run YOLO on actual CCTV footage:
+#   pip install -r requirements-cv.txt
+#
+# NOTE: These require a Python version with available wheels (3.10-3.12 recommended).
+# The system runs fully without these via the built-in high-fidelity simulator.
+ultralytics==8.3.55
+opencv-python-headless==4.10.0.84
+lap==0.5.12

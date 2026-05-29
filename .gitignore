@@ -1,0 +1,57 @@
+# ---- Datasets / media (MUST NOT be committed per challenge rules) ----
+data/
+datasets/
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.pt
+*.onnx
+*.weights
+*.h5
+*.pb
+*.jpg
+*.jpeg
+*.png
+!frontend/**/*.svg
+!docs/**/*.png
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.sqlite3
+*.db
+store_intelligence.db*
+
+# ---- Node / Frontend ----
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+*.local
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- OS / IDE ----
+.DS_Store
+.idea/
+.vscode/
+*.log
